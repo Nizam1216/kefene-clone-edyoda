@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kefene</title>
+</head>
+
+<body>
+
+
+    <div class="navbar">
+        <div class="brand">
+            <img class="logo" src="images/logo.png" alt="not loaded">
+            <p class="brandname">kafene</p>
+        </div>
+        <ul>
+
+            <li> <a href="orders.html">orders</a></li>
+            <li> <a href="products.html">products</a></li>
+            <li> <a href="users.html">users</a></li>
+        </ul>
+    </div>
+    
+    <h1>orders</h1>
+    <div class="align">
+    <div class="filter">
+        <h3>filters</h3>
+        <h3>count:</h3>
+        <div class="checkbox">
+            <input type="checkbox" name="js" id="jss" value="New" class="check">
+            <label for="New">New</label><br>
+            <input type="checkbox" name="js" id="js1" value="Packed" class="check">
+            <label for="Packed">Packed</label><br>
+            <input type="checkbox" name="js" id="js2" value="inTransit" class="check">
+            <label for="inTransit">inTransit</label><br>
+            <input type="checkbox" name="js" id="js3" value="Delivered" class="check">
+            <label for="Delivered">Delivered</label><br>
+        </div>
+    </div>
+
+    <div class="container">
+        <table id="orderinfo"></table>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
